@@ -1,1 +1,30 @@
+-- Dataset: divvy-tripdata
+-- Source: https://divvy-tripdata.s3.amazonaws.com/index.html
+-- Data Table: '202409-divvy-tripdata.csv'
+-- Queried with: BiQuery (SQL)
+
+#Preparation
+
+Data is located on the cloud, hosted by AWS. There are csv files containing information about:
+
+- Trips per Month for Q2 2020 to 2024 named ‘yyyymm-drivvy-tripdata.csv’
+- Information about stations in files named ‘Drivvy_Station_trips_yyyy’
+
+Early remarks: 
+
+- **Data about Stations is outdated**, as our latest version dates from Q4 2017.
+- **tripdata files are missing start_station_id, start_station_name, end_station_id, end_station_name data
+- **station_id and station_name** data needs to be cleaned from duplicates, unconsistent matches
+
+We will focus on data from '202409-divvy-tripdata.csv'. 
+
+#Data cleaning code
+
+
+
+
+
+
+
+
 
